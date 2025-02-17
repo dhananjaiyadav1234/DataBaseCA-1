@@ -23,7 +23,7 @@ const restaurentSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    items: [Number],
+    items: [String],
 
     itemDetails: itemDetailsSchema
         
